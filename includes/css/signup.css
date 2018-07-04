@@ -1,0 +1,132 @@
+body {
+    background-image: url("http://wallpapercave.com/wp/aHBwrlG.jpg");
+}
+
+h1{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.container {
+    width: 406px;
+    max-width: 406px;
+    margin: 0 auto;
+}
+
+#signup {
+    padding: 0px 35px 25px;
+    background: #fff;
+    box-shadow:
+            0px 0px 0px 5px rgba( 255,255,255,0.4 ),
+            0px 4px 20px rgba( 0,0,0,0.33 );
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    display: table;
+
+}
+
+#signup .header {
+    margin-bottom: 5px;
+}
+
+#signup .header h3 {
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#signup .header p {
+    color: #8f8f8f;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#signup .sep {
+    height: 1px;
+    background: #e8e8e8;
+    width: 406px;
+    margin: 0px -25px;
+}
+
+#signup .inputs {
+    margin-top: 0px;
+}
+
+#signup .inputs label {
+    color: #8f8f8f;
+    font-size: 8px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-bottom: 7px;
+    display: block;
+}
+
+
+#signup .inputs input[type=email], input[type=password],input[type=text] {
+    background: #f5f5f5;
+    font-size: 0.60rem;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: none;
+    padding: 13px 10px;
+    width: 330px;
+    margin-bottom: 10px;
+    box-shadow: inset 0px 2px 3px rgba( 0,0,0,0.1 );
+    clear: both;
+}
+
+#signup .inputs input[type=email]:focus, input[type=password]:focus {
+    background: #fff;
+    box-shadow: 0px 0px 0px 3px #fff38e, inset 0px 2px 3px rgba( 0,0,0,0.2 ), 0px 5px 5px rgba( 0,0,0,0.15 );
+    outline: none;
+}
+
+
+#signup .inputs input[type=checkbox] {
+    float: left;
+    margin-right: 8px;
+    margin-top: 3px;
+}
+
+#signup .inputs label.terms {
+    float: left;
+    font-size: 8px;
+    font-style: italic;
+}
+
+.roundedTwo {
+    width: 250px;
+    height: 20px;
+    position: relative;
+    margin: 20px auto;
+    background: #fcfff4;
+    background: linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px white, 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+label {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    cursor: pointer;
+    background: linear-gradient(top, #222 0%, #45484d 100%);
+    border-radius: 50px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 1);
+
+}
+
+.footer {
+    position: absolute !important;
+    right: 0;
+    bottom: 0px;
+    margin-bottom: -57px;
+    left: 0;
+    padding: 0.08rem;
+    background-color: #efefef;
+    text-align: center;
+}

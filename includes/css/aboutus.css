@@ -1,0 +1,26 @@
+
+body {
+    background-size: cover;
+    background-color: white;
+}
+
+h1{
+    font-family:Lobster;
+    font-size:80px;
+
+}
+.design{
+    font-size:100px;
+    color: #ffd775;
+}
+
+.footer {
+    position:relative !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    padding: 0.08rem;
+    background-color: #efefef;
+    text-align: center;
+}

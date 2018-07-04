@@ -1,0 +1,112 @@
+
+body {
+    background-size: cover;
+    background-image: url("http://wallpapercave.com/wp/aHBwrlG.jpg");
+    height: 600px;
+}
+
+.testbox {
+    margin: 0px auto;
+    width: 340px;
+    height: 555px;
+    -webkit-border-radius: 8px/7px;
+    -moz-border-radius: 8px/7px;
+    border-radius: 8px/7px;
+    background-color: #ebebeb;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    box-shadow: 1px 2px 5px rgba(0,0,0,.31);
+    border: solid 1px #cbc9c9;
+}
+
+form{
+    margin: 0 30px;
+}
+h5{
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 20px;
+    font-weight: bold ;
+}
+h1{
+   text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-style: inherit;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+hr{
+    color: #a9a9a9;
+    opacity: 0.3;
+}
+
+input[type=text],input[type=password]{
+    width: 200px;
+    height: 39px;
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 13px;
+    padding-left: 10px;
+}
+.dateBox{
+    width: 200px;
+    height: 39px;
+    -webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    -moz-border-radius: 0px 4px 4px 0px/0px 0px 4px 4px;
+    border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;
+    background-color: #fff;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    border: solid 1px #cbc9c9;
+    margin-left: -5px;
+    margin-top: 13px;
+    padding-left: 10px;=
+}
+
+
+#icon {
+    display: inline-block;
+    width: 30px;
+    background-color: darkkhaki;
+    padding: 8px 0px 8px 15px;
+    margin-left: 15px;
+    -webkit-border-radius: 4px 0px 0px 4px;
+    -moz-border-radius: 4px 0px 0px 4px;
+    border-radius: 4px 0px 0px 4px;
+    color: white;
+    -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    box-shadow: 1px 2px 5px rgba(0,0,0,.09);
+    border: solid 0px #cbc9c9;
+}
+
+.gender {
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.button{
+    bottom: 8px;
+    position: absolute !important;
+    margin-right:20px ;
+    right: 664px;
+
+}
+.footer {
+    position: relative !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.08rem;
+    background-color: #efefef;
+    text-align: center;
+}

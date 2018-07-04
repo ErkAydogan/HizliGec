@@ -1,0 +1,166 @@
+body {
+    background-size: cover;
+    background-image: url("http://wallpapercave.com/wp/aHBwrlG.jpg");
+}
+
+.navbar {
+    border-radius: 0px;
+}
+
+h4 {
+    font-size: 30px;
+    font-kerning: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-weight: BOLD;
+
+    color: #4CAF50;
+    text-align: left;
+    border:groove;
+    border-color: #1a1a1a;
+
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-kerning: auto;
+    font-feature-settings: normal;
+    font-size-adjust: inherit;
+    text-align: center;
+    font-weight: bold;
+
+}
+h1{
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+.login-page {
+    width: 500px;
+    padding: 3% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative !important;
+    background: #FFFFFF;
+    padding:10px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.buton{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background-color: dodgerblue;
+    height: 30px;
+    margin-right: 150px;
+    margin-top: 270px;
+    padding: 11px;
+    border: 1px solid dodgerblue;
+    color: #FFFFFF;
+    font-size: 9px;
+position: absolute !important;
+    width: 40%;
+    right: 0px;
+}
+.buton:hover{
+    background-color:  white!important; /* Green */
+    color: black !important;
+    border: 2px solid dodgerblue !important;
+}
+.disbutton{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: red;
+    width: 100%;
+    height: 10px;
+    border: 0;
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+.black {
+    background: black;
+}
+.btn{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    height: 10px;
+    border: 0;
+    padding: 25px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover:enabled,.form button:active,.form button:focus {
+    background: #43A047;
+}
+.form .message {
+    margin: 15px 0 0;
+    font-size: 12px;
+    text-align: center;
+    color: #1a1a1a;
+}
+.form .message a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+.form .register-form {
+    display: none;
+}
+.container {
+    position: relative;
+    z-index: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.container .info {
+    margin: 50px auto;
+    text-align: center;
+}
+.container .info h1 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1a1a1a;
+}
+.container .info span {
+    color: #4d4d4d;
+    font-size: 12px;
+}
+.container .info span a {
+    color: #000000;
+    text-decoration: none;
+}
+.container .info span .fa {
+    color: #EF3B3A;
+}
+
+.footer {
+    position: relative !important;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.08rem;
+    background-color: #efefef;
+    text-align: center;
+}
+

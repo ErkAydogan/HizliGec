@@ -1,0 +1,118 @@
+body {
+    background-size: cover;
+   background-image: url("http://wallpapercave.com/wp/aHBwrlG.jpg");
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-kerning: auto;
+    font-feature-settings: normal;
+    font-size-adjust: inherit;
+    font-weight: bold;
+    position: absolute;!important;
+    margin-top: 110px;
+    border-bottom: 6px solid whitesmoke;
+    font-family: Lobster;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+h3{
+    font-weight: bold;
+}
+
+.EventDate{
+    position: absolute !important;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-left: 25px;
+    border-bottom-color: #1a1a1a;
+}
+
+.EventDate2{
+    height: 30px;
+    border-bottom-color: #1a1a1a;
+}
+
+.City{
+    position: absolute !important;
+    margin-bottom: 10px;
+    height: 30px;
+    margin-left: 230px;
+    border-bottom-color: #1a1a1a;
+}
+
+.Place{
+    position: absolute !important;
+    height: 30px;
+    margin-left: 440px;
+    border-bottom-color: #1a1a1a;
+}
+
+.imager{
+max-height: 210px;
+}
+
+.w3-display-container{
+    padding-right: 10px;
+}
+
+.search-form_3{
+    right: 50px;
+    padding: 0.5rem;
+    background-color:darkblue;
+    position: absolute !important;
+}
+
+.search_3{
+    left:100px;
+}
+
+.dropdown{
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    position: absolute !important;
+    margin-left: 670px;
+    margin-top: 3px;
+    width: 13%;
+}
+
+.w3-btn-block{
+    position: absolute !important;
+    top: 100px;
+    width: 15%;
+    right: 60px;
+    height: 30px;
+}
+
+hr {
+    display: block;
+    color: inherit;
+    position: absolute !important;
+    margin-top: 160px;
+    height: 0;
+    width: 100%;
+    max-height: 400px;
+    font-size: 3px;
+    line-height: 10px;
+    clear: both;
+    border: none;
+    border-top: 4px solid #000000;
+}
+
+.inputstyle{
+    font-family:Lobster;
+    padding: 5px 30px;
+    font-size:15px;
+}
+
+.footer {
+position: fixed !important;
+    margin-bottom: 0px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0.08rem;
+    background-color: #efefef;
+    text-align: center;
+}
