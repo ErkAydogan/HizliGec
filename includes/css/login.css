@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 body {
-   background-image: url("http://www.mrwallpaper.com/wallpapers/chicago-city-view-1920x1200.jpg");
+   background-image: url('../../packages/img/signin.jpg');
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;

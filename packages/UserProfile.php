@@ -15,19 +15,17 @@ $events = $database->getRelatedEvents($username);
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="../includes/css/userprofile.css" rel="stylesheet">
 <link href="../includes/css/header.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 
 
 <ul class="w3-navbar w3-white w3-large">
-    <li class="shrift"><a href="UserHome.php" class="w3-black">HaveFun</a></li>
-    <li class="w3-right w3-light-grey shrift"><a href="logout.php">Sign Out</a></li>
-    <li class="w3-right w3-light-grey shrift"><a href="UserProfile.php">Profile</a></li>
+    <li class="shrift"><a href="UserHome.php" class="w3-black">HızlıGeç</a></li>
+    <li class="w3-right w3-light-grey shrift"><a href="logout.php">Oturumu Kapat</a></li>
+    <li class="w3-right w3-light-grey shrift"><a href="UserProfile.php">Profil</a></li>
 </ul>
 
 
-<link href="../includes/css/userprofile.css" rel="stylesheet">
 
 <head>
 <body>
@@ -44,13 +42,13 @@ $events = $database->getRelatedEvents($username);
 </nav>
 
 <section>
-    <h1 style="color:black">-------------  </h1>
+    <h1 style="color:black"> </h1>
 </section>
 
 <form class="w3-row-padding w3-center w3-margin-top" method="POST" action="EventForSignedIn.php">
     <form class="w3-row-padding w3-center w3-margin-top" method="POST" action="EventForSignedIn.php">
 
-        <h3 style="font-family: Lobster"> Events I participated in:</h3>
+        <h3 style="font-family: Lobster"> Siparişler:</h3>
                 <table class="w3-table w3-bordered" style="width:100%; background-color:#ffecf7;">
                     <tr>
                         <th>Picture </th>

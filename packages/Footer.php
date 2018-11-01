@@ -1,1 +1,1 @@
-<div class="footer">Webber.com &copy; 2017</div>
+<div class="footer">Hızlıgeç.com &copy; 2018</div>

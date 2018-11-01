@@ -2,19 +2,24 @@
 include 'Database.php';
 $database = new Database(); ?>
 
-<link href="../includes/css/signup.css" rel="stylesheet">
+<link href="../includes/css/UyeOl.css" rel="stylesheet">
+-
+<head>
+    <title>
+        Üye Olun
+    </title>
+</head>
+<body style="background: url('img/Uyeyap.jpg'); background-size: 100%">
 
-<body>
 
 
-
-<div class="col-xs-12 col-sm-8">
-    <h1>Buy Tickets For</h1>
-    <h1>Cinema,Theater,Music and Sports.</h1>
+<div style="margin-right: 30%; color: whitesmoke" class="col-xs-12 col-sm-8">
+    <h1>Zaman Kaybetmeden Siparişiniz</h1>
+    <h1>Siz Gidince Hazır Olsun</h1>
     <br><br>
 </div>
 
-<div class="container">
+<div  style="margin-left: 20%" class="container">
 
     <form id="signup" method="POST" action="CheckSignUp.php">
 
@@ -38,7 +43,7 @@ $database = new Database(); ?>
             <section title=".roundedTwo">
 
                 <div class="roundedTwo">
-                    <input type="checkbox" value=1 id="check" name="check"   Label text</label>Are You An Admin?
+                    <input type="checkbox" value=1 id="check" name="check"   Label text</label>İşletme misiniz?
                 </div>
 
             </section>
