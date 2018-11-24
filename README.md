@@ -1,2 +1,1 @@
-# Havefun
-CS202 project
+Website Development
